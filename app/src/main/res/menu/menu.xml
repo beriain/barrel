@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+        android:id="@+id/share"
+        android:title="@string/share"
+        />
+    <item
+        android:id="@+id/back"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/back"
+        />
+    <item
+        android:id="@+id/forward"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="@string/forward"
+        />
+    <item
+        android:id="@+id/reload"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/reload"
+        />
+    <item
+        android:id="@+id/exit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/exit"
+        />
+</menu>

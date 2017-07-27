@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_browser" >
+        <CheckBoxPreference
+            android:key="pref_javascript"
+            android:title="@string/pref_js"
+            android:defaultValue="true"
+            />
+        <EditTextPreference
+            android:key="pref_accept_language"
+            android:title="@string/pref_accept_language"
+            />
+        <EditTextPreference
+            android:key="pref_search_engine"
+            android:title="@string/pref_search_engine"
+            android:defaultValue="https://duckduckgo.com/?q="
+            />
+        <CheckBoxPreference
+            android:key="pref_cookies"
+            android:title="@string/pref_cookies"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="pref_block_ads"
+            android:title="@string/pref_block_ads"
+            android:defaultValue="true"
+            />
+        <EditTextPreference
+            android:key="pref_start_page"
+            android:title="@string/pref_start_page"
+            android:defaultValue=" "
+            />
+        <CheckBoxPreference
+            android:key="pref_remember_history"
+            android:title="@string/pref_remember_history"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="pref_enable_localstorage"
+            android:title="@string/pref_localstorage"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_privacy" >
+        <EditTextPreference
+            android:key="pref_user_agent"
+            android:title="@string/pref_user_agent"
+            />
+        <EditTextPreference
+            android:key="pref_dnt"
+            android:title="@string/pref_dnt"
+            android:defaultValue="1"
+            />
+        <CheckBoxPreference
+            android:key="pref_clear_data_on_exit"
+            android:title="@string/pref_clear_data_on_exit"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="pref_clear_cookies_between_domains"
+            android:title="@string/pref_clear_between_domains"
+            android:summary="@string/pref_clear_cookies_between_domains"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:key="pref_clear_history_on_exit"
+            android:title="@string/pref_clear_history_on_exit"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/others">
+        <PreferenceScreen
+            android:title="@string/about">
+            <intent android:action="beriain.barrel.activities.AboutActivity"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

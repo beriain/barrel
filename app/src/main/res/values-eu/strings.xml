@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kupela</string>
+    <string name="settings">Ezarpenak</string>
+    <string name="loading">Kargatzen&#8230;</string>
+    <string name="about">Honi buruz</string>
+    <string name="pref_js">Javascript</string>
+    <string name="pref_user_agent">User agent</string>
+    <string name="pref_accept_language">Accept-Language</string>
+    <string name="pref_dnt">DNT (Do Not Track)</string>
+    <string name="pref_cat_browser">Nabigatzailea</string>
+    <string name="others">Besteak</string>
+    <string name="back">Atzera</string>
+    <string name="forward">Aurrera</string>
+    <string name="reload">Birkargatu</string>
+    <string name="exit">Irten</string>
+    <string name="pref_search_engine">Bilaketa motorra</string>
+    <string name="pref_cookies">Cookieak baimendu</string>
+    <string name="pref_clear_cookies_between_domains">Cookieak garbitu domeinu aldaketen artean</string>
+    <string name="pref_clear_data_on_exit">Irteterakoan datuak garbitu</string>
+    <string name="pref_block_ads">Iragarkiak blokeatu</string>
+    <string name="downloading">Deskargatzen&#8230;</string>
+    <string name="pref_start_page">Hasierako orria</string>
+    <string name="share">Partekatu</string>
+    <string name="pref_cat_privacy">Pribatutasuna</string>
+    <string name="pref_clear_between_domains">Garbitu domeinuen artean</string>
+    <string name="pref_remember_history">Historia gogoratu</string>
+    <string name="pref_clear_history_on_exit">Irteterakoan historia garbitu</string>
+    <string name="pref_localstorage">Barneko biltegiratzea baimendu</string>
+    <string name="download">Deskargatu</string>
+
+</resources>
